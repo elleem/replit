@@ -8,9 +8,9 @@ class LL:
     self.head = head
 
 
-  def print_ll(ll): 
+  def print_ll(self): 
     #define a current pointer
-    current = ll.head # points to the head node
+    current = self.head # points to the head node
     # use a while loop
     while current: #while current is truthy
       # do a thing, such as print
@@ -27,7 +27,10 @@ if __name__== "__main__":
   ll_1.head.next.next = Node(3)
 
 
-  print(ll_1.head.next.next.next)
-  print(ll_1.head.next.next.val)
+  # print(ll_1.head.next.next.next)
+  # print(ll_1.head.next.next.val)
+  # invoke the method
+  
+  ll_1.print_ll()
   
   
