@@ -15,3 +15,6 @@ if __name__== "__main__":
 
 
   print(ll_1.head.next.next.next)
+  print(ll_1.head.next.next.val)
+  
+  
